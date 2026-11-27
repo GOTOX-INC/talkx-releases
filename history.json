@@ -2,7 +2,7 @@
   "schema": 1,
   "env": "prod",
   "repo": "GOTOX-INC/talkx-releases",
-  "updatedAt": "2026-11-27T11:04:51.921Z",
+  "updatedAt": "2026-11-27T11:08:55.404Z",
   "natives": {
     "android": {
       "505": {
@@ -199,13 +199,39 @@
           "mobile-ci-downloader@1+d8999cc9d441"
         ],
         "nativeInputs": "7f8b697e2fd3",
+        "commit": "19b782d2b144f0bc4a7774c7c283ed27e4566448",
+        "builtAt": "2026-11-20T07:56:10.409Z"
+      },
+      "511": {
+        "appVersion": "1.0.31",
+        "bridgeApiVersion": 1,
+        "capacitor": "8",
+        "capabilities": [
+          "@capacitor/core@8",
+          "@capacitor-community/file-opener@8",
+          "@capacitor-community/media@9",
+          "@capacitor-firebase/messaging@8",
+          "@capacitor/app@8",
+          "@capacitor/app-launcher@8",
+          "@capacitor/browser@8",
+          "@capacitor/filesystem@8",
+          "@capacitor/preferences@8",
+          "@capacitor/share@8",
+          "@capacitor/status-bar@8",
+          "@capawesome/capacitor-badge@8",
+          "@capgo/capacitor-speech-recognition@8",
+          "@capgo/capacitor-updater@8",
+          "appsflyer-capacitor-plugin@7",
+          "mobile-ci-downloader@1+d8999cc9d441"
+        ],
+        "nativeInputs": "a30abef099fb",
         "nativeInputsDetail": {
           "files": {
             "assets": "2815904321c1",
             "firebase": "e2e40cc4396b",
             "lib/20_capacitor": "d2d58e2368af",
             "lib/25_android": "4fe7e67ed51f",
-            "lib/30_platform": "b23884837b81",
+            "lib/30_platform": "4f4b0859a42e",
             "lib/35_app_icon": "fe7f459434fe",
             "lib/prepare-icon.js": "fcc3740208de"
           },
@@ -224,13 +250,14 @@
             "APP_ID_IOS": "209449dd04ba",
             "APP_NAME": "f77d7de55be6",
             "APP_SPLASH_ICON": "d847f666718f",
-            "APP_VERSION": "2aa092243667",
+            "APP_VERSION": "5662d39816ce",
             "BUILD_CMD": "e3b0c44298fc",
             "CAP_ALLOW_NAVIGATION": "e3b0c44298fc",
-            "CAP_APPEND_USER_AGENT": "0774e119472d",
+            "CAP_APPEND_USER_AGENT": "241bf6ba0c69",
             "CAP_HOSTNAME": "434886cb7909",
             "CAP_ICON_BG": "f2074b6cef37",
             "CAP_SPLASH_BG": "55302efec624",
+            "DEEP_LINK_DOMAINS": "434886cb7909",
             "DEEP_LINK_SCHEME": "f230c90ad8c4",
             "FIREBASE_NOTI_CHANNEL_ID": "1cc0fe4f19cb",
             "FIREBASE_NOTI_CHANNEL_NAME": "4cd44bae95c4",
@@ -263,8 +290,8 @@
             "WEB_OTA_ENABLED": "b5bea41b6c62"
           }
         },
-        "commit": "19b782d2b144f0bc4a7774c7c283ed27e4566448",
-        "builtAt": "2026-11-20T07:56:10.409Z"
+        "commit": "fdfe9ef4239a198cda98ed299a1f7ba4f53ea5b5",
+        "builtAt": "2026-11-27T11:08:53.459Z"
       }
     }
   },
@@ -385,7 +412,7 @@
     }
   ],
   "kind": "history",
-  "rev": 7,
+  "rev": 8,
   "events": [
     {
       "at": "2026-10-28T04:09:44.746Z",
@@ -461,10 +488,20 @@
       "platform": "android",
       "nativeBuild": "511",
       "appVersion": "1.0.31"
+    },
+    {
+      "at": "2026-11-27T11:08:55.404Z",
+      "rev": 8,
+      "actor": "github-actions[bot]",
+      "run": "https://github.com/GOTOX-INC/talkx-apps/actions/runs/45986718014",
+      "type": "register",
+      "platform": "ios",
+      "nativeBuild": "511",
+      "appVersion": "1.0.31"
     }
   ],
   "mirror": {
-    "assetId": 800149209,
-    "mirroredAt": "2026-11-27T11:05:03.805Z"
+    "assetId": 800162431,
+    "mirroredAt": "2026-11-27T11:09:08.330Z"
   }
 }
